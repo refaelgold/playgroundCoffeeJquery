@@ -4,6 +4,10 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 @import '../bower_components/sass-bootstrap/lib/bootstrap.scss';
 
 
+
+
+.hide{display:none !important}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -85,11 +89,54 @@ body {
     top:0px;
   }
 
+  #box002{
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    position:absolute;
+    top:200px;
+    left:200px;
+  }
 
+
+
+
+
+  div.filterDiv {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    float: left;
+    border: 2px white solid;
+  }
+
+
+
+a
+.titleH1{
+  color:red;
+  font-size:46px;
+ }
+
+  .extraTitleClass{
+    color:#000000 !important;
+    font-size:16px !important;
+  }
+
+
+  .newP{
+    color:red !important;
+  }
 }
 
 
 
+
+
+table tr td{
+  border:1px solid #000000 !important;
+  padding:4px;
+}
 
 
 
