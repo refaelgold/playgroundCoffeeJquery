@@ -4997,6 +4997,9 @@ td.visible-print {
   th.hidden-print,
   td.hidden-print {
     display: none !important; } }
+.redBoder {
+  border: 1px solid red !important; }
+
 .hide {
   display: none !important; }
 
@@ -5053,12 +5056,6 @@ body {
 
 .marketing p + h4 {
   margin-top: 28px; }
-
-.newListItem {
-  display: inline;
-  float: left;
-  list-style-type: none;
-  color: red; }
 
 #mainContainer #box001 {
   width: 30px;
