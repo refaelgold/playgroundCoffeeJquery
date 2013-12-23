@@ -4997,7 +4997,7 @@ td.visible-print {
   th.hidden-print,
   td.hidden-print {
     display: none !important; } }
-.redBoder {
+.redBorder {
   border: 1px solid red !important; }
 
 .hide {
