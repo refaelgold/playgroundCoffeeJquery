@@ -34,27 +34,18 @@
             </div>
 
             <article id="mainContainer">
-                <h1>this is my main container</h1>
+                <h1 id="mainTitle">this is my main container</h1>
+
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Accusamus accusantium assumenda cum dicta doloremque eligendi excepturi facere in
                     ipsum laborum libero magnam maiores minus officia porro, similique sit unde voluptatibus!
                 </p>
-
-                <button class="clickMe">click</button>
-
-
-                <form  id="formBasicEvents" action="#">
-                    <input type="text" name="" id=""/>
-                    <input type="text" name="" id=""/>
-                    <input type="submit" value="send"/>
-                </form>
             </article>
 
             <div class="footer">
                 <p>♥ from the Yeoman team</p>
             </div>
-
         </div>
 
 
@@ -64,7 +55,23 @@
         <!-- endbower -->
         <!-- endbuild -->
 
-
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function (b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l;
+                b[l] || (b[l] =
+                        function () {
+                            (b[l].q = b[l].q || []).push(arguments)
+                        });
+                b[l].l = +new Date;
+                e = o.createElement(i);
+                r = o.getElementsByTagName(i)[0];
+                e.src = '//www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e, r)
+            }(window, document, 'script', 'ga'));
+            ga('create', 'UA-XXXXX-X');
+            ga('send', 'pageview');
+        </script>
 
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
