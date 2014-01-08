@@ -1,74 +1,18 @@
-#hello chp 005
+#hello chp006
+
+#nav element of the menu
+headerNavSelector = $ '.nav'
 
 
+i = 1
 
-#click event
-clickButton=$ ".clickMe"
-
-clickButton.on('click',(e)->
-  console.log e
-  console.log "the x of the button is:"+e.pageX
-  console.log "the y of the button is:"+e.pageY
+headerNavSelector.on('click', 'li', ->
+  console.log 'header element is clicked for the ' + i + ' time'
+  i++
 )
 
 
-#form Elements
-basicForm=$ "#formBasicEvents"
-inputTextFields=$ "input:text"
-
-basicForm.on('submit',->
-  console.log "the form as been submitted"
-# can be send the form only ONCE
-  basicForm.off "submit"
-
-)
-
-
-
-#two event at once
-inputTextFields.on('focus',->
-  $(this).addClass "redBorder"
-  console.log "i am on focus-you can write up whatever you want!"
-).on('blur',->
-  $(this).removeClass "redBoder"
-  console.log "i'm out! stop writing!!"
-)
-#####################################################
-
-
-
-
-
-#hover and unhover event
-mainTitleOnPage=$ "#mainContainer h1"
-mainTitleOnPage.on('mouseenter',->
-  console.log "hover!!"
-  return;
-).on('mouseleave',->
-  console.log "unhover!!"
-)
-
-
-#define a variable for the accordion
-accordion = $ "#accordion"
-accordionHeading = $ "#accordion h2"
-accordionPragraph = $ "#accordion p"
-
-accordionPragraph.not(":first").hide();
-
-accordionHeading.on("click", ->
-  t = $(this)
-  tPara = t.next()
-  if tPara.is(":visible")
-    return;
-  accordionPragraph.slideUp("normal")
-  tPara.slideDown("normal")
-)
-
-
-
-
-
-
+#always take the last element
+headerNavSelector.append('<li><a>portfilo</a></li>');
 
 
