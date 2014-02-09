@@ -1,0 +1,77 @@
+doctype  html
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8
+//if IE 8
+  html.no-js.lt-ie9
+// [if gt IE 8] <!
+html.no-js
+    // <![endif]
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        title jqueryPlayground
+        meta(name='description', content='')
+        meta(name='viewport', content='width=device-width')
+        // Place favicon.ico and apple-touch-icon.png in the root directory
+        // build:css(.tmp) styles/main.css
+        link(rel='stylesheet', href='styles/main.css')
+        // endbuild
+        // build:js scripts/vendor/modernizr.js
+        script(src='bower_components/modernizr/modernizr.js')
+        // endbuild
+    body
+        //if lt IE 10
+          p.browsehappy
+            | You are using an
+            strong outdated
+            | browser. Please
+            a(href='http://browsehappy.com/') upgrade your browser
+            | to improve your experience.
+        .container
+            .header
+                ul.nav.nav-pills.pull-right
+                    li.active
+                        a(href='#') Home
+                    li
+                        a(href='#') About
+                    li
+                        a(href='#') Contact
+                h3.text-muted jqueryPlayground
+            article#mainContainer
+                h1 this is my main container
+                p
+                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    | Accusamus accusantium assumenda cum dicta doloremque eligendi excepturi facere in
+                    | ipsum laborum libero magnam maiores minus officia porro, similique sit unde voluptatibus!
+                button.clickMe click
+                form#formBasicEvents(action='#')
+                    input(type='text', name='')
+                    input(type='text', name='')
+                    input(type='submit', value='send')
+            .footer
+                p ♥ from the Yeoman team
+        // build:js scripts/vendor.js
+        // bower:js
+        script(src='bower_components/jquery/jquery.js')
+        // endbower
+        // endbuild
+        // build:js scripts/main.js
+        script(src='scripts/main.js')
+        // endbuild
+        // build:js scripts/plugins.js
+        script(src='bower_components/sass-bootstrap/js/affix.js')
+        script(src='bower_components/sass-bootstrap/js/alert.js')
+        script(src='bower_components/sass-bootstrap/js/dropdown.js')
+        script(src='bower_components/sass-bootstrap/js/tooltip.js')
+        script(src='bower_components/sass-bootstrap/js/modal.js')
+        script(src='bower_components/sass-bootstrap/js/transition.js')
+        script(src='bower_components/sass-bootstrap/js/button.js')
+        script(src='bower_components/sass-bootstrap/js/popover.js')
+        script(src='bower_components/sass-bootstrap/js/carousel.js')
+        script(src='bower_components/sass-bootstrap/js/scrollspy.js')
+        script(src='bower_components/sass-bootstrap/js/collapse.js')
+        script(src='bower_components/sass-bootstrap/js/tab.js')
+        // endbuild
+                    
