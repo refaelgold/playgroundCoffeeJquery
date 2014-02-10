@@ -18,7 +18,7 @@ inputTextFields=$ "input:text"
 
 basicForm.on('submit',->
   console.log "the form as been submitted"
-# can be send the form only ONCE
+  # can be send the form only ONCE
   basicForm.off "submit"
 
 )
@@ -39,8 +39,6 @@ inputTextFields.on('focus',->
 
 
 
-
-
 #hover and unhover event
 mainTitleOnPage=$ "#mainContainer h1"
 mainTitleOnPage.on('mouseenter',->
@@ -49,6 +47,27 @@ mainTitleOnPage.on('mouseenter',->
 ).on('mouseleave',->
   console.log "unhover!!"
 )
+
+
+#define a variable for the accordion
+accordion = $ "#accordion"
+accordionHeading = $ "#accordion h2"
+accordionPragraph = $ "#accordion p"
+
+accordionPragraph.not(":first").hide();
+
+accordionHeading.on("click", ->
+  t = $(this)
+  tPara = t.next()
+  if tPara.is(":visible")
+    return;
+  accordionPragraph.slideUp("normal")
+  tPara.slideDown("normal")
+)
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-#hello chp004
+#hello chp004 here we make css+slide+wrap+append+create an element
 mainHeader=$ 'h1#mainTitle'
 menuTop=$ '.nav'
 header=$ '.header'
