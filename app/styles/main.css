@@ -1,4 +1,4 @@
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* normalize.css v2.1.3 | MIT License | git.io/normalize */
 article,
 aside,
 details,
@@ -4997,7 +4997,7 @@ td.visible-print {
   th.hidden-print,
   td.hidden-print {
     display: none !important; } }
-.redBoder {
+.redBorder {
   border: 1px solid red !important; }
 
 .hide {
@@ -5089,6 +5089,42 @@ body {
 table tr td {
   border: 1px solid #000000 !important;
   padding: 4px; }
+
+#chp006 .main_headline {
+  color: #ff4855;
+  font-size: 24px;
+  text-align: center; }
+#chp006 .mainBox {
+  background-color: red;
+  width: 500px;
+  height: 500px;
+  position: relative; }
+  #chp006 .mainBox span {
+    color: #000000;
+    text-align: center;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    bored: 1px solid #000000;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%; }
+#chp006 .customEventBox {
+  background: yellow;
+  width: 500px;
+  height: 500px;
+  position: relative; }
+  #chp006 .customEventBox span:first-child {
+    position: absolute;
+    top: 40px;
+    cursor: pointer;
+    background: #ffffff; }
+  #chp006 .customEventBox span:last-child {
+    position: absolute;
+    top: 80px;
+    cursor: pointer;
+    background: #ffffff; }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {

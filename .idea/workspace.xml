@@ -47,13 +47,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/main.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="0" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="1500">
+              <folding>
+                <marker date="1392111255000" expanded="true" signature="1325:1365" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp006/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="100" column="69" selection-start="3694" selection-end="3694" vertical-scroll-proportion="-17.181818" vertical-offset="555" max-vertical-offset="1830">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp006/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="47" selection-start="2416" selection-end="2416" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chp006.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp006.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="7" selection-start="1813" selection-end="1818" vertical-scroll-proportion="0.9112187" vertical-offset="296" max-vertical-offset="1590">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp005/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="44" selection-start="3405" selection-end="3405" vertical-scroll-proportion="-37.916668" vertical-offset="545" max-vertical-offset="1815">
+              <folding>
+                <marker date="1392111508000" expanded="true" signature="925:1078" placeholder="..." />
+                <marker date="1392111508000" expanded="true" signature="1018:1046" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="768" selection-end="768" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="195">
+            <state line="14" column="49" selection-start="2400" selection-end="2400" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
               <folding>
-                <marker date="1392069388000" expanded="true" signature="174:2775" placeholder="..." />
-                <marker date="1392069388000" expanded="true" signature="2759:2768" placeholder="..." />
+                <marker date="1392111676000" expanded="true" signature="174:3608" placeholder="..." />
+                <marker date="1392111676000" expanded="true" signature="711:3601" placeholder="..." />
+                <marker date="1392111676000" expanded="true" signature="913:2488" placeholder="..." />
+                <marker date="1392111676000" expanded="true" signature="1159:2427" placeholder="..." />
+                <marker date="1392111676000" expanded="true" signature="1666:2417" placeholder="..." />
+                <marker date="1392111676000" expanded="true" signature="2181:2407" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -62,7 +116,7 @@
       <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="3133" selection-end="3133" vertical-scroll-proportion="-20.727272" vertical-offset="0" max-vertical-offset="1230">
+            <state line="96" column="44" selection-start="3506" selection-end="3506" vertical-scroll-proportion="-17.072727" vertical-offset="501" max-vertical-offset="1830">
               <folding />
             </state>
           </provider>
@@ -71,97 +125,32 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp002/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="25" selection-start="2330" selection-end="2330" vertical-scroll-proportion="-27.291666" vertical-offset="260" max-vertical-offset="1530">
+            <state line="62" column="54" selection-start="2385" selection-end="2385" vertical-scroll-proportion="-28.916666" vertical-offset="236" max-vertical-offset="1530">
               <folding>
-                <marker date="1392069151000" expanded="true" signature="271:4285" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="299:940" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="951:4277" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="965:1182" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="1218:2248" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="1251:1576" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="1305:1496" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="1636:2133" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="1707:2018" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="2167:2232" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="2549:2984" placeholder="..." />
-                <marker date="1392069151000" expanded="true" signature="2585:2873" placeholder="{...}" />
+                <marker date="1392111500000" expanded="true" signature="271:4289" placeholder="..." />
+                <marker date="1392111500000" expanded="true" signature="951:4281" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.coffee" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scripts/main.coffee">
+      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/jquery/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.2972028" vertical-offset="0" max-vertical-offset="858">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chp003.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp003.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="1065">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chp004.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp004.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="66" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chp005.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp005.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp004/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="26" selection-start="2684" selection-end="2684" vertical-scroll-proportion="-43.125" vertical-offset="0" max-vertical-offset="1410">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136755">
               <folding>
-                <marker date="1392069117000" expanded="true" signature="271:3905" placeholder="..." />
-                <marker date="1392069117000" expanded="true" signature="299:940" placeholder="..." />
-                <marker date="1392069117000" expanded="true" signature="951:3897" placeholder="..." />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp003/index.html">
+      <file leaf-file-name="jquery.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/jquery/jquery.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="70" selection-start="8948" selection-end="8948" vertical-scroll-proportion="-37.291668" vertical-offset="2465" max-vertical-offset="3735">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <folding>
-                <marker date="1392069138000" expanded="true" signature="271:10125" placeholder="..." />
-                <marker date="1392069138000" expanded="true" signature="299:940" placeholder="..." />
-                <marker date="1392069138000" expanded="true" signature="951:10117" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp005/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="55" selection-start="3438" selection-end="3438" vertical-scroll-proportion="-43.541668" vertical-offset="410" max-vertical-offset="1815">
-              <folding>
-                <marker date="1392068812000" expanded="true" signature="271:4493" placeholder="..." />
-                <marker date="1392068812000" expanded="true" signature="295:875" placeholder="..." />
-                <marker date="1392068812000" expanded="true" signature="882:4485" placeholder="..." />
-                <marker date="1392068812000" expanded="true" signature="925:1078" placeholder="..." />
-                <marker date="1392068812000" expanded="true" signature="1018:1046" placeholder="..." />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,18 +167,23 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp004.coffee" />
-        <option value="$PROJECT_DIR$/app/index.jade" />
         <option value="$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp005.coffee" />
-        <option value="$PROJECT_DIR$/app/books/begin_jquery-apress/chp005/index.html" />
         <option value="$PROJECT_DIR$/app/books/begin_jquery-apress/chp004/index.html" />
         <option value="$PROJECT_DIR$/app/books/begin_jquery-apress/chp003/index.html" />
-        <option value="$PROJECT_DIR$/app/books/begin_jquery-apress/chp002/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/scripts/main.coffee" />
+        <option value="$PROJECT_DIR$/app/index.jade" />
+        <option value="$PROJECT_DIR$/app/books/begin_jquery-apress/chp002/index.html" />
+        <option value="$PROJECT_DIR$/app/books/begin_jquery-apress/chp005/index.html" />
+        <option value="$PROJECT_DIR$/app/books/begin_jquery-apress/chp006/index.jade" />
+        <option value="$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp006.coffee" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-43" />
     <option name="y" value="22" />
     <option name="width" value="2560" />
     <option name="height" value="1414" />
@@ -285,6 +279,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playgroundCoffeeJquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playgroundCoffeeJquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -313,6 +325,66 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="begin_jquery-apress" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chp006.coffee" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playgroundCoffeeJquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playgroundCoffeeJquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="books" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="begin_jquery-apress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playgroundCoffeeJquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playgroundCoffeeJquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="books" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="begin_jquery-apress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chp006" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index.jade" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -428,6 +500,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/scripts/books/begin_jquery-apress" />
+      <recent name="$PROJECT_DIR$/app/books/begin_jquery-apress/chp006" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
@@ -478,11 +552,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1414" extended-state="0" />
-    <editor active="false" />
+    <frame x="-43" y="22" width="2560" height="1414" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -548,88 +622,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="768" selection-end="768" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="195">
-          <folding>
-            <marker date="1392069388000" expanded="true" signature="174:2775" placeholder="..." />
-            <marker date="1392069388000" expanded="true" signature="2759:2768" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="3133" selection-end="3133" vertical-scroll-proportion="-20.727272" vertical-offset="0" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp005.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+        <state line="73" column="0" selection-start="1250" selection-end="1250" vertical-scroll-proportion="1.2762238" vertical-offset="0" max-vertical-offset="1185">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp005/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="55" selection-start="3438" selection-end="3438" vertical-scroll-proportion="-43.541668" vertical-offset="410" max-vertical-offset="1815">
-          <folding>
-            <marker date="1392068812000" expanded="true" signature="271:4493" placeholder="..." />
-            <marker date="1392068812000" expanded="true" signature="295:875" placeholder="..." />
-            <marker date="1392068812000" expanded="true" signature="882:4485" placeholder="..." />
-            <marker date="1392068812000" expanded="true" signature="925:1078" placeholder="..." />
-            <marker date="1392068812000" expanded="true" signature="1018:1046" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp004/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="26" selection-start="2684" selection-end="2684" vertical-scroll-proportion="-43.125" vertical-offset="0" max-vertical-offset="1410">
+        <state line="69" column="26" selection-start="2684" selection-end="2684" vertical-scroll-proportion="1.2410072" vertical-offset="0" max-vertical-offset="1410">
           <folding>
-            <marker date="1392069117000" expanded="true" signature="271:3905" placeholder="..." />
-            <marker date="1392069117000" expanded="true" signature="299:940" placeholder="..." />
-            <marker date="1392069117000" expanded="true" signature="951:3897" placeholder="..." />
+            <marker date="1392111500000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1392111500000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1392111500000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp003/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="70" selection-start="8948" selection-end="8948" vertical-scroll-proportion="-37.291668" vertical-offset="2465" max-vertical-offset="3735">
+        <state line="224" column="70" selection-start="8948" selection-end="8948" vertical-scroll-proportion="1.0731415" vertical-offset="2465" max-vertical-offset="3735">
           <folding>
-            <marker date="1392069138000" expanded="true" signature="271:10125" placeholder="..." />
-            <marker date="1392069138000" expanded="true" signature="299:940" placeholder="..." />
-            <marker date="1392069138000" expanded="true" signature="951:10117" placeholder="..." />
+            <marker date="1392111500000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1392111500000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1392111500000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="9" selection-start="2799" selection-end="2799" vertical-scroll-proportion="-39.75" vertical-offset="1941" max-vertical-offset="3615">
+          <folding>
+            <marker date="1392110160000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1392110160000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1392110160000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1392110160000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1392110160000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/jquery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136755">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/jquery/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1281">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="44" selection-start="3506" selection-end="3506" vertical-scroll-proportion="-17.072727" vertical-offset="501" max-vertical-offset="1830">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp002/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="25" selection-start="2330" selection-end="2330" vertical-scroll-proportion="-27.291666" vertical-offset="260" max-vertical-offset="1530">
+        <state line="62" column="54" selection-start="2385" selection-end="2385" vertical-scroll-proportion="-28.916666" vertical-offset="236" max-vertical-offset="1530">
           <folding>
-            <marker date="1392069151000" expanded="true" signature="271:4285" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="299:940" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="951:4277" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="965:1182" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="1218:2248" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="1251:1576" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="1305:1496" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="1636:2133" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="1707:2018" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="2167:2232" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="2549:2984" placeholder="..." />
-            <marker date="1392069151000" expanded="true" signature="2585:2873" placeholder="{...}" />
+            <marker date="1392111500000" expanded="true" signature="271:4289" placeholder="..." />
+            <marker date="1392111500000" expanded="true" signature="951:4281" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="49" selection-start="2400" selection-end="2400" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
+          <folding>
+            <marker date="1392111676000" expanded="true" signature="174:3608" placeholder="..." />
+            <marker date="1392111676000" expanded="true" signature="711:3601" placeholder="..." />
+            <marker date="1392111676000" expanded="true" signature="913:2488" placeholder="..." />
+            <marker date="1392111676000" expanded="true" signature="1159:2427" placeholder="..." />
+            <marker date="1392111676000" expanded="true" signature="1666:2417" placeholder="..." />
+            <marker date="1392111676000" expanded="true" signature="2181:2407" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.2972028" vertical-offset="0" max-vertical-offset="858">
+        <state line="94" column="0" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="1500">
+          <folding>
+            <marker date="1392111255000" expanded="true" signature="1325:1365" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp005/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="44" selection-start="3405" selection-end="3405" vertical-scroll-proportion="-37.916668" vertical-offset="545" max-vertical-offset="1815">
+          <folding>
+            <marker date="1392111508000" expanded="true" signature="925:1078" placeholder="..." />
+            <marker date="1392111508000" expanded="true" signature="1018:1046" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp006/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="69" selection-start="3694" selection-end="3694" vertical-scroll-proportion="-17.181818" vertical-offset="555" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/books/begin_jquery-apress/chp006/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="47" selection-start="2416" selection-end="2416" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp006.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="7" selection-start="1813" selection-end="1818" vertical-scroll-proportion="0.9112187" vertical-offset="296" max-vertical-offset="1590">
           <folding />
         </state>
       </provider>

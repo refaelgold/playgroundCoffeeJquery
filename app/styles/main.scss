@@ -141,11 +141,61 @@ table tr td{
 
 
 
+$main_headline_color_red: #ff4855;
 
 
 
+#chp006{
+  .main_headline{
+    color:$main_headline_color_red;
+    font-size:24px;
+    text-align: center;
+    }
+
+  .mainBox{
+    background-color:red;
+    width:500px;
+    height:500px;
+    position: relative;
+
+    span{
+        color:#000000;
+        text-align: center;
+        top:50%;
+        width:100px;
+        height: 100px;
+        bored:1px solid #000000;
+        background-color:#ffffff;
+        position: absolute;
+        left:50%;
+        top:50%;
+        }
+    }
 
 
+  .customEventBox{
+    background:yellow;
+    width:500px;
+    height:500px;
+    position: relative;
+
+    span:first-child
+      {
+      position: absolute;
+      top:40px;
+      cursor: pointer;
+      background:#ffffff;
+     }
+      span:last-child{
+        position: absolute;
+        top:80px;
+        cursor: pointer;
+        background:#ffffff;
+        }
+    }
+
+
+  }
 
 
 
