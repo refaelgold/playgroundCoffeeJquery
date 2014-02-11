@@ -79,7 +79,7 @@
       <file leaf-file-name="chp006.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp006.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="7" selection-start="1813" selection-end="1818" vertical-scroll-proportion="0.9112187" vertical-offset="296" max-vertical-offset="1590">
+            <state line="89" column="18" selection-start="1661" selection-end="1661" vertical-scroll-proportion="1.2938979" vertical-offset="296" max-vertical-offset="1590">
               <folding />
             </state>
           </provider>
@@ -183,7 +183,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-43" />
+    <option name="x" value="-10" />
     <option name="y" value="22" />
     <option name="width" value="2560" />
     <option name="height" value="1414" />
@@ -552,11 +552,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-43" y="22" width="2560" height="1414" extended-state="0" />
-    <editor active="true" />
+    <frame x="-10" y="22" width="2560" height="1414" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -755,7 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp006.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="7" selection-start="1813" selection-end="1818" vertical-scroll-proportion="0.9112187" vertical-offset="296" max-vertical-offset="1590">
+        <state line="89" column="18" selection-start="1661" selection-end="1661" vertical-scroll-proportion="1.2938979" vertical-offset="296" max-vertical-offset="1590">
           <folding />
         </state>
       </provider>
