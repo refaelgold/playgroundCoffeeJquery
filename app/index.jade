@@ -21,7 +21,8 @@ html.no-js
         // build:js scripts/vendor/modernizr.js
         script(src='bower_components/modernizr/modernizr.js')
         // endbuild
-    body#chp006
+
+    body#chp007
         //if lt IE 10
           p.browsehappy
             | You are using an
@@ -40,55 +41,49 @@ html.no-js
                         a(href='#') Contact
                 h3.text-muted jqueryPlayground
             article#mainContainer
+                h1.main_headline this is animate section
+                div#box
 
-                h1.main_headline this is my main container
-                section.p_holder
+            section.buttonHolder
+                button#animate animate
+                button#fadeToggleBtn fade Toggle
+                button#slideToggleBtn slide  Toggle
+                button#customAnimate Custom  Animate
+
+
+            #accordion
+                    h2 Heading
                     p
-                        | Paragraph001
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                        | ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        | nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                        | esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        | culpa qui officia deserunt mollit anim id est laborum.
+                    h2 Heading 2
                     p
-                        | Paragraph002
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                        | ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        | nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                        | esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        | culpa qui officia deserunt mollit anim id est laborum.
+                    h2 Heading3
                     p
-                        | Paragraph003
-                    p
-                        | Paragraph004
-                    p
-                        | Paragraph005
+                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                        | ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        | nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                        | esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        | culpa qui officia deserunt mollit anim id est laborum.
 
 
-                section.linkHolder
-                    a(href="http://www.google.co.il") google site
-                section.mainBox
-                    span.innerElement hello world
-
-
-
-                section.customEventBox
-                    span.button001 first button
-                    span.button002 second button
-
-
-                section#accordion
-                        h2 Heading 1
-                        p
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            | Asperiores commodi debitis delectus dignissimos eaque
-                            | eligendi illo modi neque odio odit quaerat quis quisquam
-                            | ratione, rem similique, sint sunt tempore voluptates?
-                        h2 Heading 2
-                        p
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            | Asperiores commodi debitis delectus dignissimos eaque
-                            | eligendi illo modi neque odio odit quaerat quis quisquam
-                            | ratione, rem similique, sint sunt tempore voluptates?
-                        h2 Heading 3
-                        p
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            | Asperiores commodi debitis delectus dignissimos eaque
-                            | eligendi illo modi neque odio odit quaerat quis quisquam
-                            | ratione, rem similique, sint sunt tempore voluptates?
-
-
-
+            //#Fader.fader
+            //    img(class='slide',src='http://www.barrelny.com/wp-content/uploads/about-office-slide-pingpong2-800x500.jpg')
+            //    img(class='slide',src='http://www.barrelny.com/wp-content/uploads/about-office-slide-bikerack-800x500.jpg')
+            //    img(class='slide',src='http://www.barrelny.com/wp-content/uploads/about-office-slide-bookcase-800x500.jpg')
+            //    .fader_controls
+            //        .page.prev(data-target='prev') ‹
+            //        .page.next(data-target='next') ›
+            //        ul.pager_list
+            //
 
             .footer
                 p ♥ from the Yeoman team

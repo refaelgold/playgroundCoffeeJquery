@@ -5126,6 +5126,68 @@ table tr td {
     cursor: pointer;
     background: #ffffff; }
 
+#chp007 #box {
+  width: 50px;
+  height: 50px;
+  background-color: red; }
+#chp007 .fader {
+  position: relative;
+  padding-top: 60%;
+  overflow: hidden; }
+#chp007 .fader .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+  opacity: 0; }
+#chp007 .fader img.slide {
+  height: auto; }
+#chp007 .fader .prev,
+#chp007 .fader .next {
+  position: absolute;
+  height: 80px;
+  line-height: 55px;
+  width: 50px;
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  left: 0;
+  z-index: 4;
+  margin-top: -25px;
+  cursor: pointer;
+  opacity: .7;
+  transition: all 150ms; }
+#chp007 .fader .prev:hover,
+#chp007 .fader .next:hover {
+  opacity: 1; }
+#chp007 .fader .next {
+  left: auto;
+  right: 0; }
+#chp007 .fader .pager_list {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  bottom: 0;
+  text-align: center;
+  z-index: 4; }
+#chp007 .fader .pager_list li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 7px;
+  background: #fff;
+  opacity: .7;
+  text-indent: -999px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 150ms; }
+#chp007 .fader .pager_list li:hover,
+#chp007 .fader .pager_list li.active {
+  opacity: 1; }
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
