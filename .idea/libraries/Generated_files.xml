@@ -15,6 +15,7 @@
         <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp005.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp006.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp008.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp011.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -45,6 +46,7 @@
       <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp005.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp006.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp008.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp011.js" />
     </CLASSES>
     <SOURCES />
   </library>

@@ -5198,6 +5198,34 @@ table tr td {
   #accordion p {
     padding: 0 5px; }
 
+#chp011 .slider {
+  width: 300px;
+  overflow: hidden;
+  height: 400px; }
+#chp011 .slider ul {
+  list-style: none;
+  width: 3000px;
+  height: 300px;
+  margin: 0;
+  padding: 0; }
+#chp011 .slider li {
+  float: left;
+  width: 300px;
+  height: 300px; }
+#chp011 .button, #chp011 .index {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  display: block;
+  padding: 6px;
+  border: 1px solid #ccc;
+  margin: 10px 0 0 0; }
+#chp011 .index {
+  text-align: center; }
+#chp011 .back {
+  float: left; }
+#chp011 .forward {
+  float: right; }
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
