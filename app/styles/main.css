@@ -5188,6 +5188,16 @@ table tr td {
 #chp007 .fader .pager_list li.active {
   opacity: 1; }
 
+#accordion {
+  width: 500px;
+  border: 1px solid black; }
+  #accordion h2 {
+    padding: 5px;
+    margin: 0;
+    background-color: #f5e3c3; }
+  #accordion p {
+    padding: 0 5px; }
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {

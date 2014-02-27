@@ -283,13 +283,22 @@ $main_headline_color_red: #ff4855;
 
 
 
+//accordion general plugin
+#accordion {
+  width: 500px;
+  border: 1px solid black;
 
+ h2 {
+  padding: 5px;
+  margin: 0;
+  background-color:rgb(245, 227, 195);
+  }
 
+ p {
+  padding: 0 5px;
+  }
 
-
-
-
-
+ }
 
 
 

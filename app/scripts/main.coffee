@@ -1,124 +1,127 @@
-#chp008
-json = "{ \"person\" : { \"age\" : 20, \"name\" : \"Jack\" } }"
-parsed = JSON.parse(json)
-console.log parsed
-console.log parsed.person
-console.log parsed.person["age"]
+#chp009
 
 
-
-
-#get the json by script
-json = person:
-  age: 20
-  name: "Jack"
-
-console.log "string:"+JSON.stringify(json)
-
-
-#get it by ajax
-$ ->
-  $.ajax
-    url: "/scripts/sample.json"
-    type: "get"
-    dataType: "json"
-    success: (data) ->
-      console.log "the ajax call info"+data
-      return
-
-  return
-
-
-
-
-
-#  create a jsonp with some tags
-$ ->
-  $.ajax
-    url: "http://api.dribbble.com/shots/21603-Moon"
-    dataType: "jsonp"
-    success:(data) ->
-      wrapperDiv = $("<div />",
-        class: "wrapper"
-      )
-      title = $("<h2 />",
-        text: data.title
-      )
-      img = $("<img />",
-        alt: data.title
-        src: data.image_url
-      )
-      user = $("<a />",
-        text: data.player.name
-        href: data.player.url
-      )
-      wrapperDiv.append(title).append(img).append user
-      $(".container").append wrapperDiv
-      return
-  return
-
-
-
-#  create a jsonp with loop
-#1.put the url for get the platlist
-#2.dont forget to put the callback
-#3.use the videoUrl For echo the youtube video url
-#4.activate getJson for get the data to the pase
-#  param playListUrl is the url we define in 1
-#  param data is the data who come from youtube
-#5.list_data is a val who will have all the html of the list
-#6.running a loop of data.feed.entry
-#  param i is the key value
-#  param item is the data per 1 video
-#7.feedTitle will have the title of the video
-#8.feedurl will have the ID of the video
-#9.fradgment will get split the url to the the id
-#10.video id is the first so we do some math to get it (split number 1 )
-#11.url is the full url of the video
-#12.thumb is the defulat image of the video
-#13.list_data is the html of all the arrbuments
-#14.at the end of getJson we appendTo some element in the page.
-#NOTE: you can put &callback=? to use jsonp
-
-
-playListURL = "http://gdata.youtube.com/feeds/api/playlists/B2A4E1367126848D?v=2&alt=json&callback=?"
-videoURL = "http://www.youtube.com/watch?v="
-$.getJSON playListURL, (data) ->
-  list_data = ""
-  $.each data.feed.entry, (i, item) ->
-    feedTitle = item.title.$t
-    feedURL = item.link[1].href
-    fragments = feedURL.split("/")
-    videoID = fragments[fragments.length - 2]
-    url = videoURL + videoID
-    thumb = "http://img.youtube.com/vi/" + videoID + "/default.jpg"
-    list_data += "<li><a href=\"" + url + "\" title=\"" + feedTitle + "\"><img alt=\"" + feedTitle + "\" src=\"" + thumb + "\"</a></li>"
+#define basic plug
+$.fn.logId = ->
+  @each ->
+    console.log @id  unless @id is ""
     return
 
-  $(list_data).appendTo ".cont"
+
+
+  $.fn.logAttr = (attr) ->
+    @each ->
+      console.log $(this).attr(attr)  unless  $(this).attr(attr) is undefined
+      return
   return
 
 
-playListURL = "http://gdata.youtube.com/feeds/api/playlists/B2A4E1367126848D?v=2&alt=json&callback=?"
-videoURL = "http://www.youtube.com/watch?v="
-#  create a jsonp with some tags
+
+#activate basic plug
 $ ->
-  $.ajax
-    url: playListURL
-    dataType: "jsonp"
-    success:(data) ->
-      list_data = ""
-      $.each data.feed.entry, (i, item) ->
-        feedTitle = item.title.$t
-        feedURL = item.link[1].href
-        fragments = feedURL.split("/")
-        videoID = fragments[fragments.length - 2]
-        url = videoURL + videoID
-        thumb = "http://img.youtube.com/vi/" + videoID + "/default.jpg"
-        list_data += "<li><a href=\"" + url + "\" title=\"" + feedTitle + "\"><img alt=\"" + feedTitle + "\" src=\"" + thumb + "\"</a></li>"
+  $("div").logId()
+  return
+
+
+#activate basic plug
+$ ->
+  $("div").logAttr("class")
+  return
+
+
+
+
+
+
+
+
+
+#-implement a javascript call-
+#1.opts is the arrgument who get from the mehod call
+#2.defaults represent the opt by defaults if its not defined in the function call
+#3.options its take the defaults and opt and use extends to put it on the function
+#4.running a loop for each element who got this call
+#5.val attribute get the definition of attribue value or the backup.(use option.prop to call the propery)
+#6.condition check if useAlert is true or not to activate the alert box or else put the consone.log
+
+(($) ->
+  $.fn.logAttrBook = (opts) ->
+    defaults =
+      attr: "id"
+      backup: "N/A"
+      useAlert: true
+
+    options = $.extend({}, defaults, opts)
+    @each ->
+      val = $(this).attr(options.attr) or options.backup
+      (if options.useAlert then alert(val) else console.log(val))
+      return
+
+
+  return
+) jQuery
+
+
+
+
+$ ->
+$("div").logAttrBook
+  attr: "id"
+  useAlert:false
+  backup: "Not Aviliable"
+
+
+
+
+
+
+
+(($) ->
+  $.fn.accordion = (opts) ->
+    defaults =
+      headings: "h2"
+      content: "p"
+      callback: ->
+        console.log "end of animate"
+      duration: 600
+
+    options = $.extend({}, defaults, opts)
+    @each ->
+      $this = $(this)
+      headings = $this.children(options.headings)
+      paragraphs = $this.children(options.content)
+
+      animateAccordion = (elem, duration, callback) ->
+        paragraphs.stop(true, true).slideUp duration
+        $(elem).stop(true, true).slideDown duration, callback
+        return
+
+      paragraphs.not(":first").hide()
+      $this.on "click", options.headings, ->
+        t = $(this)
+        tPara = t.next()
+        tPara.trigger "showParagraph"  unless tPara.is(":visible")
+        return
+
+      $this.on "showParagraph", options.content, ->
+        animateAccordion this, options.duration, options.callback
         return
 
       return
-    $(list_data).appendTo ".cont"
+
+
   return
+) jQuery
+
+
+
+$ ->
+  $("#accordion").accordion
+    duration: 1000
+    callback:console.log "override"
+    headings: "h2"
+    content: "p"
+
+
+
 
