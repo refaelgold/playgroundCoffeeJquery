@@ -1,127 +1,129 @@
-#chp009
+#chp010
+#1.first we define the method calls with no agruments
+#2.we write one function who works like get shot and give the argument she need
+#3.put the option with extends
+#4.we write ajaxCallDribble who get the url options and if there is any page
+#  -get the url id and the rest will be on the ajax call imself
+#  -we got the option who it pages and per page or whatever the api ask from us
+#  -we get the param who responsibility is to check if we get page and pages(like shots)
+#5.the ajax call will give us jsonp object  and we need to give the data as is
+#6.the id per_page and page are defult param we can override if we want in the call imself.
+#7.the method give the argument for the ajax call like the api said to us.
+(($) ->
+  ajaxCallDribble = (url, options, pagination) ->
+    data = {}
+    if pagination
+      data.page = options.page
+      data.per_page = options.per_page
+    $.ajax(
+      url: "http://api.dribbble.com" + url
+      dataType: "jsonp"
+      data: data
+    ).done options.callback
 
 
-#define basic plug
-$.fn.logId = ->
-  @each ->
-    console.log @id  unless @id is ""
+  baseSettings =
+    callback: ->
+    per_page: 15
+    page: 1
+    id: ""
+
+
+
+  $.dribbble =
+    getShot: (opts) ->
+      options = $.extend({}, baseSettings, opts)
+      ajaxCallDribble "/shots/" + options.id, options, false
+      return
+
+    getShots: (opts) ->
+      options = $.extend({}, baseSettings, opts)
+      ajaxCallDribble "/shots/everyone/", options, true
+      return
+
+    getPlayerShots: (opts) ->
+      options = $.extend({}, baseSettings, opts)
+      ajaxCallDribble "/players/" + options.id + "/shots", options, true
+      return
+
+    getPlayerShotsFollowing: (opts) ->
+      options = $.extend({}, baseSettings, opts)
+      ajaxCallDribble "/players/" + options.id + "/shots/following", options, true
+      return
+
+  return
+) jQuery
+
+
+
+
+
+
+#youtube API plug-in
+(($) ->
+  ajaxCallYouTube = (url, options) ->
+    data = {}
+    $.ajax(
+      url: "http://gdata.youtube.com" + url
+      dataType: "jsonp"
+      data: data
+    ).done options.callback
+
+
+  baseSettings =
+    callback: ->
+    q: ""
+    maxResults: 1
+    alt: "jsonc"
+
+  $.youtube =
+    getVideoPlaylist: (opts) ->
+      options = $.extend({}, baseSettings, opts)
+      ajaxCallYouTube "/feeds/api/videos?q=" + options.q+"&max_result="+options.maxResults+"&v=2&alt="+options.alt, options, false
+      return
+
+    getUserDetails: (opts) ->
+      options = $.extend({}, baseSettings, opts)
+      ajaxCallYouTube "/feeds/api/users/" + options.q+"/playlists?v=2&alt="+options.alt, options, false
+      return
+
+  return
+) jQuery
+
+
+
+
+#dribble calls
+$.dribbble.getShot
+  id: "0001"
+  callback: (data) ->
+    console.log "get the specific data"
+    console.log data
     return
 
 
-
-  $.fn.logAttr = (attr) ->
-    @each ->
-      console.log $(this).attr(attr)  unless  $(this).attr(attr) is undefined
-      return
-  return
-
+$.dribbble.getShots
+  callback: (data) ->
+    console.log "get all  data"
+    console.log data
+    return
 
 
-#activate basic plug
-$ ->
-  $("div").logId()
-  return
+$.youtube.getVideoPlaylist
+  q: "aNdMiIAlK0g"
+  callback: (data) ->
+    console.log "get the youtube playlist data"
+    console.log data
+    return
 
 
-#activate basic plug
-$ ->
-  $("div").logAttr("class")
-  return
-
-
-
-
-
-
-
-
-
-#-implement a javascript call-
-#1.opts is the arrgument who get from the mehod call
-#2.defaults represent the opt by defaults if its not defined in the function call
-#3.options its take the defaults and opt and use extends to put it on the function
-#4.running a loop for each element who got this call
-#5.val attribute get the definition of attribue value or the backup.(use option.prop to call the propery)
-#6.condition check if useAlert is true or not to activate the alert box or else put the consone.log
-
-(($) ->
-  $.fn.logAttrBook = (opts) ->
-    defaults =
-      attr: "id"
-      backup: "N/A"
-      useAlert: true
-
-    options = $.extend({}, defaults, opts)
-    @each ->
-      val = $(this).attr(options.attr) or options.backup
-      (if options.useAlert then alert(val) else console.log(val))
-      return
-
-
-  return
-) jQuery
-
-
-
-
-$ ->
-$("div").logAttrBook
-  attr: "id"
-  useAlert:false
-  backup: "Not Aviliable"
-
-
-
-
-
-
-
-(($) ->
-  $.fn.accordion = (opts) ->
-    defaults =
-      headings: "h2"
-      content: "p"
-      callback: ->
-        console.log "end of animate"
-      duration: 600
-
-    options = $.extend({}, defaults, opts)
-    @each ->
-      $this = $(this)
-      headings = $this.children(options.headings)
-      paragraphs = $this.children(options.content)
-
-      animateAccordion = (elem, duration, callback) ->
-        paragraphs.stop(true, true).slideUp duration
-        $(elem).stop(true, true).slideDown duration, callback
-        return
-
-      paragraphs.not(":first").hide()
-      $this.on "click", options.headings, ->
-        t = $(this)
-        tPara = t.next()
-        tPara.trigger "showParagraph"  unless tPara.is(":visible")
-        return
-
-      $this.on "showParagraph", options.content, ->
-        animateAccordion this, options.duration, options.callback
-        return
-
-      return
-
-
-  return
-) jQuery
-
-
-
-$ ->
-  $("#accordion").accordion
-    duration: 1000
-    callback:console.log "override"
-    headings: "h2"
-    content: "p"
-
+#this method fet all teh user details
+$.youtube.getUserDetails
+  q: "GY27OwqTX-J9VZDVNS_I2g"
+  callback: (data) ->
+    console.log "get the youtube USER DETAILS"
+    console.log data
+    return
 
 
 
