@@ -19,7 +19,7 @@ console.log "string:"+JSON.stringify(json)
 #get it by ajax
 $ ->
   $.ajax
-    url: "/scripts/books/begin_jquery-apress/sample007.json"
+    url: "/scripts/books/begin_jquery-apress/sample008.json"
     type: "get"
     dataType: "json"
     success: (data) ->
@@ -78,6 +78,7 @@ $ ->
 #12.thumb is the defulat image of the video
 #13.list_data is the html of all the arrbuments
 #14.at the end of getJson we appendTo some element in the page.
+#NOTE: you can put &callback=? to use jsonp
 
 
 playListURL = "http://gdata.youtube.com/feeds/api/playlists/B2A4E1367126848D?v=2&alt=json&callback=?"
@@ -96,3 +97,30 @@ $.getJSON playListURL, (data) ->
 
   $(list_data).appendTo ".cont"
   return
+
+
+
+
+playListURL = "http://gdata.youtube.com/feeds/api/playlists/B2A4E1367126848D?v=2&alt=json&callback=?"
+videoURL = "http://www.youtube.com/watch?v="
+
+#  create a jsonp with some tags
+$ ->
+  $.ajax
+    url: playListURL
+    dataType: "jsonp"
+    success:(data) ->
+      $.each data.feed.entry, (i, item) ->
+        feedTitle = item.title.$t
+        feedURL = item.link[1].href
+        fragments = feedURL.split("/")
+        videoID = fragments[fragments.length - 2]
+        url = videoURL + videoID
+        thumb = "http://img.youtube.com/vi/" + videoID + "/default.jpg"
+        list_data_002 = ""
+        list_data_002 += "<li><a href=\"" + url + "\" title=\"" + feedTitle + "\"><img alt=\"" + feedTitle + "\" src=\"" + thumb + "\"</a></li>"
+        $(list_data_002).appendTo ".cont2"
+        return
+      return
+  return
+
