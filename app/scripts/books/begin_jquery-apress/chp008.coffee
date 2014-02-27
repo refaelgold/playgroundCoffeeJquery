@@ -19,7 +19,7 @@ console.log "string:"+JSON.stringify(json)
 #get it by ajax
 $ ->
   $.ajax
-    url: "/scripts/sample.json"
+    url: "/scripts/books/begin_jquery-apress/sample007.json"
     type: "get"
     dataType: "json"
     success: (data) ->
@@ -78,7 +78,6 @@ $ ->
 #12.thumb is the defulat image of the video
 #13.list_data is the html of all the arrbuments
 #14.at the end of getJson we appendTo some element in the page.
-#NOTE: you can put &callback=? to use jsonp
 
 
 playListURL = "http://gdata.youtube.com/feeds/api/playlists/B2A4E1367126848D?v=2&alt=json&callback=?"

@@ -23,7 +23,7 @@
 
   $(function() {
     $.ajax({
-      url: "/scripts/sample.json",
+      url: "/scripts/books/begin_jquery-apress/sample007.json",
       type: "get",
       dataType: "json",
       success: function(data) {
@@ -80,4 +80,4 @@
 
 }).call(this);
 
-//# sourceMappingURL=main.map
+//# sourceMappingURL=chp008.map

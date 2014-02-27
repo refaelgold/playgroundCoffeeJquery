@@ -6,12 +6,13 @@
         <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp002.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp003.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp004.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/main.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp005.js" />
         <item url="file://$PROJECT_DIR$/node_modules/grunt-contrib-uglify/test/fixtures/src/simple2.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp006.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/main.js" />
         <item url="file://$PROJECT_DIR$/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/examples/static.js" />
         <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp007.js" />
+        <item url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp008.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -32,13 +33,14 @@
       <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp001.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp002.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp003.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/main.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp004.js" />
       <root url="file://$PROJECT_DIR$/node_modules/grunt-contrib-uglify/test/fixtures/src/simple2.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp005.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp006.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/main.js" />
       <root url="file://$PROJECT_DIR$/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/examples/static.js" />
       <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp007.js" />
+      <root url="file://$PROJECT_DIR$/app/scripts/books/begin_jquery-apress/chp008.js" />
     </CLASSES>
     <SOURCES />
   </library>
