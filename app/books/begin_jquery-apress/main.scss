@@ -1,0 +1,370 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+
+@import '../../bower_components/sass-bootstrap/lib/bootstrap.scss';
+
+.redBorder{border:1px solid red !important}
+.hide{display:none !important}
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+
+
+#mainContainer
+{
+
+  #box001{
+    width:30px;
+    height:30px;
+    background-color:red;
+    position:relative;
+    top:0px;
+  }
+
+  #box002{
+    width:100px;
+    height:100px;
+    background-color:yellow;
+    position:absolute;
+    top:200px;
+    left:200px;
+  }
+
+
+
+
+
+  div.filterDiv {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    float: left;
+    border: 2px white solid;
+  }
+
+
+
+a
+.titleH1{
+  color:red;
+  font-size:46px;
+ }
+
+  .extraTitleClass{
+    color:#000000 !important;
+    font-size:16px !important;
+  }
+
+
+  .newP{
+    color:red !important;
+  }
+
+
+}
+
+
+
+
+
+table tr td{
+  border:1px solid #000000 !important;
+  padding:4px;
+}
+
+
+
+
+
+$main_headline_color_red: #ff4855;
+
+
+
+#chp006{
+  .main_headline{
+    color:$main_headline_color_red;
+    font-size:24px;
+    text-align: center;
+    }
+
+  .mainBox{
+    background-color:red;
+    width:500px;
+    height:500px;
+    position: relative;
+
+    span{
+        color:#000000;
+        text-align: center;
+        top:50%;
+        width:100px;
+        height: 100px;
+        bored:1px solid #000000;
+        background-color:#ffffff;
+        position: absolute;
+        left:50%;
+        top:50%;
+        }
+    }
+
+
+  .customEventBox{
+    background:yellow;
+    width:500px;
+    height:500px;
+    position: relative;
+
+    span:first-child
+      {
+      position: absolute;
+      top:40px;
+      cursor: pointer;
+      background:#ffffff;
+     }
+      span:last-child{
+        position: absolute;
+        top:80px;
+        cursor: pointer;
+        background:#ffffff;
+        }
+    }
+  }
+
+
+
+#chp007{
+
+  #box{
+    width:50px;
+    height:50px;
+    background-color:red;
+    }
+
+
+  .fader{
+    position: relative;
+    padding-top: 60%;
+    overflow: hidden;
+    }
+
+  .fader .slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    opacity: 0;
+    }
+
+  .fader img.slide{
+    height: auto;
+    }
+
+  .fader .prev,
+  .fader .next{
+    position: absolute;
+    height: 80px;
+    line-height: 55px;
+    width: 50px;
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    top: 50%;
+    left: 0;
+    z-index: 4;
+    margin-top: -25px;
+    cursor: pointer;
+    opacity: .7;
+    transition: all 150ms;
+    }
+
+  .fader .prev:hover,
+  .fader .next:hover{
+    opacity: 1;
+    }
+
+  .fader .next{
+    left: auto;
+    right: 0;
+    }
+
+  .fader .pager_list{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    bottom: 0;
+    text-align: center;
+    z-index: 4;
+    }
+
+  .fader .pager_list li{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 7px;
+    background: #fff;
+    opacity: .7;
+    text-indent: -999px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 150ms;
+    }
+
+  .fader .pager_list li:hover,
+  .fader .pager_list li.active{
+    opacity: 1;
+    }
+
+  }
+
+
+
+//accordion general plugin
+#accordion {
+  width: 500px;
+  border: 1px solid black;
+
+ h2 {
+  padding: 5px;
+  margin: 0;
+  background-color:rgb(245, 227, 195);
+  }
+
+ p {
+  padding: 0 5px;
+  }
+
+ }
+
+
+
+
+
+
+#chp011{
+
+  .slider {
+    width: 300px;
+    overflow: hidden;
+    height: 400px;
+    }
+
+  .slider ul {
+    list-style: none;
+    width: 3000px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    }
+  .slider li {
+    float: left;
+    width: 300px;
+    height: 300px;
+    }
+
+  .button, .index {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: block;
+    padding: 6px;
+    border: 1px solid #ccc;
+    margin: 10px 0 0 0;
+    }
+  .index {
+    text-align: center;
+    }
+
+  .back {
+    float: left;
+    }
+  .forward {
+    float: right;
+    }
+  }
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
